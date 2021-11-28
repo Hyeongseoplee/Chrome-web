@@ -36,7 +36,7 @@ In this project, You can check current time ,weather and location, todo list and
 
 ---
 
-- [ ] Current Time
+- [O] Current Time
 - [ ] weather & location
   - [ ] Fetch weather Api
 - [O] Log in

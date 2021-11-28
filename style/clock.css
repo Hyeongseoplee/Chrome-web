@@ -21,11 +21,11 @@
 }
 
 .clock-container li div:first-child {
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 
 .clock-container li div:last-child {
   margin-top: 5px;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   text-transform: uppercase;
 }
