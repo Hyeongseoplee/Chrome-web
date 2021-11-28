@@ -36,7 +36,7 @@ const quoteBox = document.querySelector(".quoteBox");
 const quote = quoteBox.querySelector(".quote");
 const arthor = quoteBox.querySelector(".arthor");
 
-const randomNum = Math.floor(Math.random() * quotes.length);
-quote.innerText = quotes[randomNum].quote;
-arthor.innerText = `-${quotes[randomNum].arthor}`;
+const randomNumQt = Math.floor(Math.random() * quotes.length);
+quote.innerText = quotes[randomNumQt].quote;
+arthor.innerText = `-${quotes[randomNumQt].arthor}`;
 // quote[0].quote, quote[0].arthor
