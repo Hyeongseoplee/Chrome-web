@@ -60,5 +60,5 @@ In this project, You can check current time ,weather and location, todo list and
 
 Hyeongseop Lee
 
-- Github
-- Instagram
+- [Github](https://github.com/Hyeongseoplee/Momentum-dash)
+- [Instagram](@ven_eeee)
