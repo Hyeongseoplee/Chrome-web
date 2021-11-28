@@ -15,12 +15,14 @@
     <link rel="stylesheet" href="style/switchBtn.css" />
     <link rel="stylesheet" href="style/quote.css" />
     <link rel="stylesheet" href="style/toggleNTodo.css" />
+    <link rel="stylesheet" href="style/login.css" />
     <script
       src="https://kit.fontawesome.com/9cd36ea70d.js"
       crossorigin="anonymous"
     ></script>
     <script defer src="components/quotes.js"></script>
     <script defer src="components/toggleNTodo.js"></script>
+    <script defer src="components/login.js"></script>
   </head>
   <body>
     <!-- Header -->
@@ -64,10 +66,11 @@
     <section class="center">
       <!-- Log in -->
       <section class="login-wrapper">
-        <form id="loginForm">
-          <input type="text" />
+        <form id="loginForm" class="hidden">
+          <input type="text" placeholder="What is your name?" />
+          <button>Log in</button>
         </form>
-        <div class="greeting"></div>
+        <div class="greeting hidden"></div>
       </section>
 
       <!-- Clock -->

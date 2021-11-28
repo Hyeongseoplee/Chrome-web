@@ -1,0 +1,33 @@
+.login-wrapper {
+  padding: 10px 5px;
+}
+
+#loginForm.hidden {
+  display: none;
+}
+
+#loginForm input {
+  all: unset;
+  border-bottom: 1px solid #e1b12c;
+  font-size: 24px;
+  text-align: center;
+  width: 40%;
+  line-height: 30px;
+  color: red;
+}
+
+#loginForm button {
+  all: unset;
+  width: 70px;
+  height: 35px;
+  border-radius: 34px;
+  background-color: #e1b12c;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.greeting {
+  font-size: 28px;
+}

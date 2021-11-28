@@ -38,20 +38,20 @@ In this project, You can check current time ,weather and location, todo list and
 - [ ] Current Time
 - [ ] weather & location
   - [ ] Fetch weather Api
-- [ ] Log in
-  - [ ] Save in localstorage
-- [ ] Todo List
-  - [ ] Save in localstorage and HTML
-  - [ ] Delete in localstorage and HTML
+- [O] Log in
+  - [O] Save in localstorage
+- [O] Todo List
+  - [O] Save in localstorage and HTML
+  - [O] Delete in localstorage and HTML
   - [ ] Distinguish completed and Not completed
-  - [ ] Toggle bar(hided and showed)
+  - [O] Toggle bar(hided and showed)
     - [ ] Check box
   - [ ] Most important thing (highlighting)
 - [ ] Random background image
 - [ ] Switch font color button
-  - [ O ] build by html,css
+  - [O] build by html,css
   - [ ] build by javascript
-- [ O ] Quotes
+- [O] Quotes
 
 ### References
 
