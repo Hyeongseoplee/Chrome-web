@@ -44,6 +44,7 @@ In this project, You can check current time ,weather and location, todo list and
   - [ ] Save in localstorage and HTML
   - [ ] Delete in localstorage and HTML
   - [ ] Distinguish completed and Not completed
+  - [ ] Toggle bar(hided and showed)
     - [ ] Check box
   - [ ] Most important thing (highlighting)
 - [ ] Random background image

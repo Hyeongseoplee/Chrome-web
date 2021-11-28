@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;700&family=Waiting+for+the+Sunrise&display=swap"
+      rel="stylesheet"
+    />
     <title>Momentum-dash</title>
     <link rel="stylesheet" href="GlobalStyle.css" />
     <link rel="stylesheet" href="style/switchBtn.css" />
@@ -14,6 +20,7 @@
       crossorigin="anonymous"
     ></script>
     <script defer src="components/quotes.js"></script>
+    <script defer src="components/toggleNTodo.js"></script>
   </head>
   <body>
     <!-- Header -->
@@ -26,7 +33,31 @@
         <span class="quote"></span>
         <span class="arthor"></span>
       </div>
-      <i class="fas fa-bars"></i>
+      <!-- Todo Toggle Button -->
+      <span class="todo-toggle-open">
+        <i class="fas fa-bars"></i>
+      </span>
+    </section>
+
+    <!-- Todo List -->
+    <section class="todo-container hide">
+      <div class="paper">
+        <form id="todoForm">
+          <input
+            class="todoInput"
+            type="text"
+            maxlength="30"
+            placeholder="Write what to do"
+          />
+          <button class="todoSubmitBtn">
+            <i class="fas fa-pencil-alt"></i>
+          </button>
+        </form>
+        <ul class="todoList"></ul>
+        <div class="holes hole-top"></div>
+        <div class="holes hole-middle"></div>
+        <div class="holes hole-bottom"></div>
+      </div>
     </section>
 
     <!-- Center -->
@@ -51,15 +82,6 @@
         <span></span>
         <span></span>
       </div>
-    </section>
-
-    <!-- Todo List -->
-    <section class="todo-container">
-      <form id="todoForm">
-        <input class="todoInput" type="text" />
-        <button class="todoSubmitBtn">Enter</button>
-      </form>
-      <ul class="todoList"></ul>
     </section>
 
     <!-- Background -->
