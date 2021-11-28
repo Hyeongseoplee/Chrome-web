@@ -5,8 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Momentum-dash</title>
-    <link rel="stylesheet" href="style.css" />
-    <script defer src="components/background.js"></script>
+    <link rel="stylesheet" href="GlobalStyle.css" />
+    <link rel="stylesheet" href="style/switchBtn.css" />
+    <link rel="stylesheet" href="style/quote.css" />
+    <link rel="stylesheet" href="style/toggleNTodo.css" />
+    <script
+      src="https://kit.fontawesome.com/9cd36ea70d.js"
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="components/quotes.js"></script>
   </head>
   <body>
     <!-- Header -->
@@ -15,8 +22,11 @@
         <input type="checkbox" />
         <span class="slider round"></span>
       </label>
-      <div class="quotes"></div>
-      <div class="todoToggleBtn"></div>
+      <div class="quoteBox">
+        <span class="quote"></span>
+        <span class="arthor"></span>
+      </div>
+      <i class="fas fa-bars"></i>
     </section>
 
     <!-- Center -->

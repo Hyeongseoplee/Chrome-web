@@ -1,0 +1,57 @@
+.switchColorBtn {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+  border-radius: 20%;
+}
+
+.switchColorBtn input {
+  width: 0;
+  height: 0;
+  opacity: 0;
+}
+
+.slider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 60px;
+  height: 34px;
+  background-color: #ccc;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.slider::before {
+  position: absolute;
+  content: "";
+  display: block;
+  width: 26px;
+  height: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  transition: 0.4s;
+}
+
+.switchColorBtn input:checked + .slider {
+  background-color: #8c7ae6;
+}
+
+.switchColorBtn input:focus + .slider {
+  box-shadow: 0 0 1px #8c7ae6;
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round::before {
+  border-radius: 50%;
+}
+
+.switchColorBtn input:checked + .slider::before {
+  transform: translateX(26px);
+}

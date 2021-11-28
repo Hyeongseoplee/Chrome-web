@@ -47,7 +47,10 @@ In this project, You can check current time ,weather and location, todo list and
     - [ ] Check box
   - [ ] Most important thing (highlighting)
 - [ ] Random background image
-  - [ ] Switch background button
+- [ ] Switch font color button
+  - [ O ] build by html,css
+  - [ ] build by javascript
+- [ O ] Quotes
 
 ### References
 
