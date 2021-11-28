@@ -30,6 +30,7 @@ In this project, You can check current time ,weather and location, todo list and
 - toggle button (hide and show todo list)
 - change background color button
 - effect following cursor
+- Give color even number's spelling on greeting("HI ~~~")
 
 ### Making Process
 

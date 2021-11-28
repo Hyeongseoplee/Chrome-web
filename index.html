@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="style/quote.css" />
     <link rel="stylesheet" href="style/toggleNTodo.css" />
     <link rel="stylesheet" href="style/login.css" />
+    <link rel="stylesheet" href="style/clock.css" />
     <script
       src="https://kit.fontawesome.com/9cd36ea70d.js"
       crossorigin="anonymous"
@@ -23,6 +24,7 @@
     <script defer src="components/quotes.js"></script>
     <script defer src="components/toggleNTodo.js"></script>
     <script defer src="components/login.js"></script>
+    <script defer src="components/clock.js"></script>
   </head>
   <body>
     <!-- Header -->
@@ -75,9 +77,24 @@
 
       <!-- Clock -->
       <section class="clock-wrapper">
-        <div class="clock-container">
-          <div class="clock"></div>
-        </div>
+        <ul class="clock-container">
+          <li class="days">
+            <div class="number">00</div>
+            <div class="label">Days</div>
+          </li>
+          <li class="hours">
+            <div class="number">00</div>
+            <div class="label">Hours</div>
+          </li>
+          <li class="minutes">
+            <div class="number">00</div>
+            <div class="label">Minutes</div>
+          </li>
+          <li class="seconds">
+            <div class="number">00</div>
+            <div class="label">Seconds</div>
+          </li>
+        </ul>
       </section>
 
       <!-- Weather & location -->
