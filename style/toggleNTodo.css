@@ -9,9 +9,10 @@
 /* Todo List */
 .todo-container {
   position: fixed;
-  height: 89%;
+  height: 80%;
   transition: transform 0.3s ease-in-out;
   width: 20rem;
+  top: 10%;
   right: -20rem;
   display: flex;
   flex-direction: column;

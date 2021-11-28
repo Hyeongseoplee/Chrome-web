@@ -37,11 +37,11 @@
 }
 
 .switchColorBtn input:checked + .slider {
-  background-color: #8c7ae6;
+  background-color: #fbc531;
 }
 
 .switchColorBtn input:focus + .slider {
-  box-shadow: 0 0 1px #8c7ae6;
+  box-shadow: 0 0 1px #fbc531;
 }
 
 .slider.round {
@@ -54,4 +54,12 @@
 
 .switchColorBtn input:checked + .slider::before {
   transform: translateX(26px);
+}
+
+.switchColorBtn input:checked + .slider {
+  box-shadow: inset 1px 5px 1px #e3ae56;
+}
+
+.switchColorBtn input:checked * {
+  color: black;
 }

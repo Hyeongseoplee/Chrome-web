@@ -6,6 +6,11 @@
   margin-top: 10px;
 }
 
+.clock-wrapper.yellow {
+  border-top: 1px solid #fbc531;
+  border-bottom: 1px solid #fbc531;
+}
+
 .clock-container {
   display: Flex;
   height: 100%;

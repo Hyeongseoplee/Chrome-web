@@ -9,7 +9,7 @@ function handleToggle() {
   todoContainer.classList.toggle("hide");
   todoContainer.classList.toggle("showing");
   holes.forEach((item) => {
-    item.style.background = "forestgreen";
+    item.style.background = "#dcdde1";
   });
 }
 
